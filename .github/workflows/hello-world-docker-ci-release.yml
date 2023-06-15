@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-        uses: phlienert/hello-world-docker-action@latest
+        uses: phlienert/hello-world-docker-action@v2
         with:
           who-to-greet: '@phlienert'
